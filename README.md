@@ -10,3 +10,6 @@ npm install
 
 # start project 
 npm run dev
+
+# Set up your .env file 
+`cp .env.example .env`
