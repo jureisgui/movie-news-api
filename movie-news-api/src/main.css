@@ -1,0 +1,45 @@
+@import './reset.css';
+
+
+body{
+    background-color: #1D1A48;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 6px;
+    border: solid 1px #8C0343;
+
+}
+
+h1{
+    font-family: 'Varela', sans-serif;
+    font-size: 18px;
+    color: #F2F2F2;
+    text-align: center;
+    text-shadow: 6px 0 6px #8C0343;
+    padding-top: 1em;
+  }
+
+  p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    color: #F2F2F2;
+  }
+
+  h2{
+    font-family: 'Varela', sans-serif;
+    font-size: 16px;
+    color: #F2F2F2;
+  }
+
+  h3{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    color: #F2F2F2;
+  }
+
+  @media (max-width: 1000px){
+    body{
+      border: 0px;
+    }    
+  }
+
